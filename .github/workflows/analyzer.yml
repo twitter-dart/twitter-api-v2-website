@@ -16,8 +16,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - uses: dart-lang/setup-dart@v1
+    - uses: subosito/flutter-action@v2.4.0
     - name: install dependencies
-      run: dart pub get
+      run: flutter pub get
     - name: analyzer
-      run: dart analyze --fatal-infos --fatal-warnings .
+      run: flutter analyze --fatal-infos --fatal-warnings .
