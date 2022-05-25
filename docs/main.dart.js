@@ -53293,7 +53293,7 @@ l=A.dM(s.w)
 k=A.dM(s.x)
 return new A.tf(B.yh,"twitter-api-v2",A.aa9(j,A.a5u(A.dM(s.y),A.dM(s.z),A.dM(s.Q),i,r,q,p,o,n,A.dM(s.as),A.dM(s.at),A.dM(s.ax),m,l,k)),!1,j)}}
 A.Et.prototype={
-O(a,b){var s=null,r=A.aH(204,255,255,255),q=$.a6J().a.$1("/")
+O(a,b){var s=null,r=A.aH(204,255,255,255),q=$.a6J().a.$1("/twitter-api-v2-website/")
 return new A.zA(A.TH(s,new A.yU(A.qR(s,new A.eN(B.xg,A.a5k(A.a([A.ai8(new A.rB(A.akC(s,s,new A.mC("twitter-api-v2.png",s,s)),s),q),B.xM],t.E),B.cJ,B.BH,B.dn),s),r,s,s,100,s,B.kE,s),new A.aL(200,2000,0,1/0),s),s,s,0,0,0,s),new A.Yn(),s)}}
 A.Yn.prototype={
 $1(a){return a.a>800},

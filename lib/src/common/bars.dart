@@ -34,7 +34,9 @@ class TopBar extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   ClickableRegion.button(
-                    onPressed: LinkAction.opensSameTab.action("/"),
+                    onPressed: LinkAction.opensSameTab.action(
+                      '/twitter-api-v2-website/',
+                    ),
                     child: Image.asset('twitter-api-v2.png'),
                   ),
                   const HorizontalMenu(),
@@ -57,36 +59,36 @@ class HorizontalMenu extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         Link(
-          label: "GitHub",
-          url: "https://github.com/twitter-dart/twitter-api-v2",
+          label: 'GitHub',
+          url: 'https://github.com/twitter-dart/twitter-api-v2',
           linkAction: LinkAction.opensNewTab,
           first: true,
         ),
         Link(
-          label: "Pub.dev",
-          url: "https://pub.dev/packages/twitter_api_v2",
+          label: 'Pub.dev',
+          url: 'https://pub.dev/packages/twitter_api_v2',
           linkAction: LinkAction.opensNewTab,
         ),
         Link(
-          label: "Examples",
-          url: "https://github.com/twitter-dart/twitter-api-v2-examples",
+          label: 'Examples',
+          url: 'https://github.com/twitter-dart/twitter-api-v2-examples',
           linkAction: LinkAction.opensNewTab,
         ),
         Link(
-          label: "Docs",
+          label: 'Docs',
           url:
-              "https://github.com/twitter-dart/twitter-api-v2/blob/main/README.md",
+              'https://github.com/twitter-dart/twitter-api-v2/blob/main/README.md',
           linkAction: LinkAction.opensNewTab,
         ),
         Link(
-          label: "Reference",
+          label: 'Reference',
           url:
-              "https://pub.dev/documentation/twitter_api_v2/latest/twitter_api_v2/twitter_api_v2-library.html",
+              'https://pub.dev/documentation/twitter_api_v2/latest/twitter_api_v2/twitter_api_v2-library.html',
           linkAction: LinkAction.opensNewTab,
         ),
         Link(
-          label: "Issue",
-          url: "https://github.com/twitter-dart/twitter-api-v2/issues",
+          label: 'Issue',
+          url: 'https://github.com/twitter-dart/twitter-api-v2/issues',
           linkAction: LinkAction.opensNewTab,
           last: true,
         ),
@@ -114,32 +116,32 @@ class Footer extends StatelessWidget {
           padding: const EdgeInsets.symmetric(horizontal: 26, vertical: 32),
           children: [
             Link(
-              label: "MERCH",
-              url: "https://flame-engine.org/merch",
+              label: 'MERCH',
+              url: 'https://flame-engine.org/merch',
               linkAction: LinkAction.opensNewTab,
               style: textStyle,
             ),
             Link(
-              label: "AWESOME FLAME",
-              url: "https://github.com/flame-engine/awesome-flame",
+              label: 'AWESOME FLAME',
+              url: 'https://github.com/flame-engine/awesome-flame',
               linkAction: LinkAction.opensNewTab,
               style: textStyle,
             ),
             Link(
-              label: "FIRESLIME",
-              url: "https://fireslime.xyz/",
+              label: 'FIRESLIME',
+              url: 'https://fireslime.xyz/',
               linkAction: LinkAction.opensNewTab,
               style: textStyle,
             ),
             Link(
-              label: "MEDIA",
-              url: "https://github.com/flame-engine/brand",
+              label: 'MEDIA',
+              url: 'https://github.com/flame-engine/brand',
               linkAction: LinkAction.opensNewTab,
               style: textStyle,
             ),
             Link(
-              label: "CONTACT",
-              url: "https://fireslime.xyz/about.html",
+              label: 'CONTACT',
+              url: 'https://fireslime.xyz/about.html',
               linkAction: LinkAction.opensNewTab,
               style: textStyle,
               last: true,
