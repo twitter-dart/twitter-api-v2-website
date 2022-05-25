@@ -4,13 +4,16 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "b1f2b1760010760d4ec0d7b05852693f",
-"index.html": "b35aa5e9570b1778ca647d0e1d85720b",
-"/": "b35aa5e9570b1778ca647d0e1d85720b",
+"index.html": "c4a36b3a8f8880f53668afc2c3441a53",
+"/": "c4a36b3a8f8880f53668afc2c3441a53",
 "main.dart.js": "05078e9056b9de2eb835f02d708a3245",
 "Icon-192.png": "110ae907dbee39d6bb1e19ac96cbff3c",
+"flutter.js": "0816e65a103ba8ba51b174eeeeb2cb67",
 "favicon.png": "afe5f893e3e815a2cd6e3fc3cd14215b",
 "manifest.json": "2d80624bae0ce8ebb820811f3d0c553e",
-"assets/AssetManifest.json": "f30935c554f02178eeadcfd0281a6526",
+"assets/AssetManifest.json": "bd05f8ff3c31fe19f38d48b01fe28d32",
+"assets/docs/assets/docs/assets/docs/assets/assets/twitter-api-v2.png": "9471707b1f9a1e8f2c748752d21f0487",
+"assets/docs/assets/docs/assets/docs/assets/assets/lp.jpeg": "4b3bb78b854a5e5d8bceb04cc31e6fb6",
 "assets/docs/assets/docs/assets/assets/twitter-api-v2.png": "9471707b1f9a1e8f2c748752d21f0487",
 "assets/docs/assets/docs/assets/assets/lp.jpeg": "4b3bb78b854a5e5d8bceb04cc31e6fb6",
 "assets/docs/assets/assets/twitter-api-v2.png": "9471707b1f9a1e8f2c748752d21f0487",
@@ -20,7 +23,11 @@ const RESOURCES = {
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
 "assets/assets/twitter-api-v2.png": "9471707b1f9a1e8f2c748752d21f0487",
-"assets/assets/lp.jpeg": "4b3bb78b854a5e5d8bceb04cc31e6fb6"
+"assets/assets/lp.jpeg": "4b3bb78b854a5e5d8bceb04cc31e6fb6",
+"canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
+"canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
+"canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
+"canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba"
 };
 
 // The application shell files that are downloaded before a service worker can
