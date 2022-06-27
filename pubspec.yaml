@@ -34,7 +34,7 @@ dependencies:
   flutter_highlight: ^0.7.0
   universal_html: ^2.0.8
   provider: ^6.0.3
-  cupertino_icons: ^1.0.4
+  cupertino_icons: ^1.0.5
   responsive_framework: ^0.2.0
 
 dev_dependencies:
