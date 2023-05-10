@@ -29,13 +29,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  intl: ^0.17.0
-  google_fonts: ^3.0.1
+  intl: ^0.18.1
+  google_fonts: ^4.0.4
   flutter_highlight: ^0.7.0
-  universal_html: ^2.0.8
-  provider: ^6.0.3
+  universal_html: ^2.2.1
+  provider: ^6.0.5
   cupertino_icons: ^1.0.5
-  responsive_framework: ^0.2.0
+  responsive_framework: ^1.0.0
 
 dev_dependencies:
   flutter_test:
